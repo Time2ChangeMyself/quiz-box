@@ -10,28 +10,28 @@
   <div class="wrapper"> 
     <!-- Начало головы документа -->
     <header class="header">
-      <a href="#" class="logo">
-        <img src="" alt="Логотип сайта" class="logo__image">
+      <a href="#" class="header__link link-main">
+        <img src="" alt="Логотип сайта" class="header__logo logo">
       </a>
-      <nav class="menu">
-        <ul class="menu__bar">
-          <li class="menu__bar__item">
-            <a href="#" class="menu__bar__link">Главная</a>
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
           </li>
-          <li class="menu__bar__item">
-            <a href="#" class="menu__bar__link">Игры</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Игры</a>
           </li>
-          <li class="menu__bar__item">
-            <a href="#" class="menu__bar__link">Отзывы</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
           </li>
         </ul>
       </nav>
-      <adress class="contacts">
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+      <adress class="header__contacts contacts">
+        <a href="tel:+78007003030" class="contacts__phone-header phone">8 800 700 30 30</a>
         <div class="contacts__workhours">
           <p class="contacts__schedule">График работы</p>
           <div class="contacts__week-schedule">
-            <img src="" alt="Рамка для времени работы" class="contacts__image-elem">
+            <img src="" alt="Рамка для времени работы" class="contacts__image">
             <p class="contacts__workingdays">пн-вс: 09:00-20:00</p>
             <p class="contacts__dinner">Обед: 14:00-14:30</p>
           </div> 
@@ -44,73 +44,74 @@
       <div class="description">
         <h1 class="description__head">Интеллектуальный вечер для шумной компании</h1>
         <p class="description__text">Игры на любой вкус</p>
-        <a href="#" class="description__detailed">Подробнее</a>
+        <a href="#" class="description__btn btn-detailed">Подробнее</a>
       </div>
       <!-- Описание новинок недели -->
-      <div class="new-games">
-        <h2 class="new-games__title">Новинки недели 
-          <img src="" alt="Значок новый" class="new-games__image">
-        </h2>
-        <div class="new-games__list">
-          <div class="new-games__item">
-            <img src="" alt="Картинка для Музыкальной игры"  class="new-games__image-elem">
-            <h3 class="new-games__title">Музыкальная игра</h3>
-            <div class="new-games__description">
-              <div class="new-games__time">
-                <img src="" alt="Значок времени" class="new-games__time-image">
-                <p class="new-games__duration">90 минут</p>
-              </div>
-              <div class="new-games__questions">
-                <img src="" alt="Значок вопрос-ответ" class="new-games__questions-image">
-                <p class="new-games__questions-number">70 вопросов</p>
-              </div>
-            </div>
-            <p class="new-games__text">
-              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-            </p>
-            <a href="#" class="new-games__open">Смотреть</a>
-          </div>
-          <div class="new-games__item">
-            <img src="" alt="Картинка для игры Назад в 90-е"  class="new-games__image-elem">
-            <h3 class="new-games__title">Назад в 90-е</h3>
-            <div class="new-games__description">
-              <div class="new-games__time">
-                <img src="Значок времени" alt="" class="new-games__time-image">
-                <p class="new-games__duration">90 минут</p>
-              </div>
-              <div class="new-games__questions">
-                <img src="" alt="Значок вопрос-ответ" class="new-games__questions-image">
-                <p class="new-games__questions-number">70 вопросов</p>
-              </div>
-            </div>
-            <p class="new-games__text">
-              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-            </p>
-            <a href="#" class="new-games__open-active">Смотреть</a>
-          </div>
-          <div class="new-games__item">
-            <img src="" alt="Картинка для игры IT-викторина"  class="new-games__image-elem">
-            <h3 class="new-games__title">IT-викторина</h3>
-            <div class="new-games__description">
-              <div class="new-games__time">
-                <img src="" alt="Значок времени" class="new-games__time-image">
-                <p class="new-games__duration">90 минут</p>
-              </div>
-              <div class="new-games__questions">
-                <img src="" alt="Значок вопрос-ответ" class="new-games__questions-image">
-                <p class="new-games__questions-number">70 вопросов</p>
-              </div>
-            </div>
-            <p class="new-games__text">
-              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-            </p>
-            <a href="#" class="new-games__open">Смотреть</a> 
-          </div>
+      <section class="new-games">
+        <div class="new-games__title-wrap">
+          <h2 class="title new-games__title">Новинки недели</h2>          
+          <img src="" alt="Значок новый" class="new-games__icon">
         </div>
-      </div>
+        <ul class="new-games__list">
+          <li class="new-games__item new-game">
+            <img src="" alt="Картинка для Музыкальной игры"  class="new-games__image ng-image">
+            <h3 class="new-game__title">Музыкальная игра</h3>
+            <ul class="new-game__rules rules__list">
+              <li class="new-game__item">
+                <img src="" alt="Значок времени" class="new-game__icon icon">
+                <p class="new-game__duration">90 минут</p>
+              </li>
+              <li class="new-game__item">
+                <img src="" alt="Значок вопрос-ответ" class="new-game__icon icon">
+                <p class="new-game__questions">70 вопросов</p>
+              </li>
+            </ul>
+            <p class="new-game__text">
+              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+            </p>
+            <a href="#" class="new-game__btn btn">Смотреть</a>
+          </li>
+          <li class="new-games__item new-game">
+            <img src="" alt="Картинка для игры Назад в 90-е"  class="new-games__image ng-image">
+            <h3 class="new-game__title">Назад в 90-е</h3>
+            <ul class="new-game__rules rules__list">
+              <li class="new-game__item">
+                <img src="" alt="Значок времени" class="new-game__icon icon">
+                <p class="new-games__duration">90 минут</p>
+              </li>
+              <li class="new-games__item">
+                <img src="" alt="Значок вопрос-ответ" class="new-game__icon icon">
+                <p class="new-games__questions">70 вопросов</p>
+              </li>
+            </ul>
+            <p class="new-games__text">
+              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+            </p>
+            <a href="#" class="new-game__btn btn btn_active">Смотреть</a>
+          </li>
+          <li class="new-games__item new-game">
+            <img src="" alt="Картинка для игры IT-викторина"  class="new-games__image ng-image">
+            <h3 class="new-game__title">IT-викторина</h3>
+            <ul class="new-game__rules rules__list">
+              <li class="new-game__item">
+                <img src="" alt="Значок времени" class="new-game__icon icon">
+                <p class="new-game__duration">90 минут</p>
+              </li>
+              <li class="new-game__item">
+                <img src="" alt="Значок вопрос-ответ" class="new-game__icon icon">
+                <p class="new-game__questions">70 вопросов</p>
+              </li>
+            </ul>
+            <p class="new-games__text">
+              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+            </p>
+            <a href="#" class="new-game__btn btn">Смотреть</a> 
+          </li>
+        </ul>
+      </section>
       <!-- Описание прошедших игр -->
       <div class="past-games">
-        <h2 class="past-games__title">Прошедшие игры</h2>
+        <h2 class="title past-games__title">Прошедшие игры</h2>
         <div class="past-games__item">
           <img src="" alt="Фото прошедшей игры" class="past-games__image">
           <div class="past-games__desription">
@@ -166,7 +167,7 @@
               более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить 
               навык публичных выступлений в домашних условиях.
             </p>
-            <a href="#" class="about-us__detailed">Подробнее</a>
+            <a href="#" class="about-us__btn btn-detailed btn-detailed_purple">Подробнее</a>
           </div>
         </div>
       </div>
@@ -175,19 +176,19 @@
     <!-- <hr class="separating-line"> Полагаю, лучше сделать её через border CSS   -->
     <!-- Начало "подвала" -->
      <footer class="footer">
-      <a href="#" class="logo">
-        <img src="" alt="Логотип сайта" class="logo__image">
+      <a href="#" class="footer__link link-main">
+        <img src="" alt="Логотип сайта" class="footer__logo logo">
       </a>
-      <nav class="menu">
-        <ul class="menu__bar">
-          <li class="menu__bar__item">
-            <a href="#" class="menu__bar__link">Главная</a>
+      <nav class="footer__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
           </li>
-          <li class="menu__bar__item">
-            <a href="#" class="menu__bar__link">Игры</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Игры</a>
           </li>
-          <li class="menu__bar__item">
-            <a href="#" class="menu__bar__link">Отзывы</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
           </li>
         </ul>
       </nav>
@@ -195,29 +196,29 @@
         <ul class="social-meadia__list">
           <li class="social-media__item">
             <a href="" class="social-media__link">
-              <img src="" alt="Значок Телеграма" class="social-media__image">
+              <img src="" alt="Значок Телеграма" class="social-media__icon sm-icon">
             </a>
           </li>
           <li class="social-media__item">
             <a href="" class="social-media__link">
-              <img src="" alt="Значок Вконтакте" class="social-media__image">
+              <img src="" alt="Значок Вконтакте" class="social-media__icon sm-icon">
             </a>
           </li>
           <li class="social-media__item">
             <a href="" class="social-media__link">
-              <img src="" alt="Значок Фейсбука" class="social-media__image">
+              <img src="" alt="Значок Фейсбука" class="social-media__icon sm-icon">
             </a>
           </li>
           <li class="social-media__item">
             <a href="" class="social-media__link">
-              <img src="" alt="Значок Инстаграмма" class="social-media__image">
+              <img src="" alt="Значок Инстаграмма" class="social-media__icon sm-icon">
             </a>
           </li>
         </ul>
       </div>
-      <adress class="contacts">
+      <adress class="footer__contacts contacts">
         <p class="contacts__phone-info">Бесплатный звонок по России</p>
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+        <a href="tel:+78007003030" class="contacts__phone-footer phone">8 800 700 30 30</a>
       </adress>
      </footer>
      <!-- Конец "подвала" -->
