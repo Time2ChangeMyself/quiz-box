@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+body {
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background-color: #17191c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* 
+} не понял это свойство */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+
+/* .main-page-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 2700px;
+  background: url(./img/site_background-1.png) no-repeat center top, url(./img/site_background-2.png) no-repeat center bottom;
+  z-index: -20;
+  filter: grayscale(1);
+} */
+
+.main-page-wrapper {
+  background: url(./img/site_background-1.png) no-repeat center top, url(./img/site_background-2.png) no-repeat center bottom 143px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.hero {
+  margin-bottom: 193px;
+}
+
+.header {
+  height: 150px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.header__link-main {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 25px;
+}
+
+.logo {
+  width: auto;
+  height: 34px;
+}
+
+.header__menu {
+  position: absolute;
+  top: 27px;
+  left: 419px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 63px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item_active .menu__link {
+  color: #8F00FF;
+}
+
+.menu__link {
+  font-size: 16px;
+  line-height: 1.42;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #8F00FF;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.header__contacts {
+  position: absolute;
+  right: 0px;
+  top: 24px;
+  text-align: right;
+  line-height: 1;
+}
+
+/* .contacts__phone-header {
+  display: block;
+  margin-bottom: -7px;
+}  Можно использовать для подгонки положения графика работ */
+
+.phone {
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #98A4A8;
+}
+
+.contacts__workhours:hover {
+  color: #fff;
+}
+
+.footer__contacts {
+  position: absolute;
+  right: 0px;
+  top: 46px;
+  text-align: right;
+  line-height: 1.42;
+}
+
+.contacts__phone-info {
+  font-size: 11px;
+  color: #9A9A9A;
+}
+
+.hero__content {
+  position: relative;
+}
+
+.hero__text-section {
+  text-align: left;
+  
+}
+
+.title-h1 {
+font-weight: bold;
+font-size: 60px;
+line-height: 1.09;
+}
+
+.hero__title {
+  width: 637px;
+  margin-bottom: 21px;
+}
+
+.hero__text {
+  font-size: 21px;
+  margin-bottom: 74px;
+}
+
+.btn-detailed {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #8F00FF;
+  border-radius: 5px;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-detailed:hover {
+  background-color: #741BBA;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);  /*не понял этого момента*/
+}
+
+.new-games {
+  margin-bottom: 123px;
+}
+
+.new-games__title-wrap {
+  /* position: relative; */
+  margin-bottom: 50px;
+}
+
+.title-h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.new-games__icon {
+  /* position: absolute;
+  left: 329px;
+  top: 4px; Наверное, не самый хороший способ */ 
+  vertical-align: middle;
+}
+
+.new-game {
+  display: inline-block;
+  min-height: 450px;
+  border-radius: 6px;
+  margin-right: 21px;
+  width: 362px;
+  background-color: #fff;
+}
+
+.new-game:last-child {
+  margin-right: 0;
+}
+
+.new-game__image {
+  width: 362px;
+  height: 144px;  
+  border-radius: 5px 5px 0 0;
+}
+
+.new-game__description {
+  padding: 27px 34px 26px 20px;
+}
+
+.title-h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.title-h3_black {
+  color: #000;
+}
+
+.new-game__title-h3{
+  margin-bottom: 20px;
+}
+
+.new-game__list {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 19px;
+}
+
+.new-game__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 138px;
+  margin-right: 21px;
+}
+
+.new-game__item:last-child{
+  margin-right: 0;
+}
+
+.new-game__duration, .new-game__questions {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.new-game__icon {
+  margin-right: 10px;
+}
+
+.new-game__text {
+  color: #303030;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 23px;
+}
+
+.btn-view {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 17px 29px;
+  color: #8F00FF;
+  border: 1px solid #8F00FF;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn-view:hover {
+  color: #fff;
+  background-color: #8F00FF;
+}
+
+.btn-view_active {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 18px 30px;
+  color: #fff;
+  background-color: #8F00FF;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.past-games {
+  margin-bottom: 145px;
+}
+
+.past-games__title-h2 {
+  margin-bottom: 50px;
+}
+
+.past-games__list {
+  margin-bottom: 53px;
+}
+
+.past-games__item {
+  display: inline-block;
+  width: 557px;
+  vertical-align: top;
+  position: relative;
+  margin-right: 19px;
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 394px;
+}
+
+.past-games__item:last-child {
+  margin-right: 0px;
+}
+
+.past-games__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.past-games__description {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 28px;
+  width: 500px;
+}
+
+ .past-games__date {  /*Не работает отступ снизу с тегом time*/
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.past-games__title-h3 {
+  margin-bottom: 4px;
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display, .paginator__list, .paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__display {
+  margin-right: 20px;
+}
+
+.paginator__item{
+  margin-right: 0px;
+}
+
+.paginator__item:last-child{
+  margin-right: 0;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.paginator__item_active .paginator__link, .paginator__link:hover {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #8F00FF;
+}
+
+.about-us {
+  margin-bottom: 0px;
+}
+
+.about-us_wrapper {
+  position: relative;
+  margin-bottom: 97px;
+}
+
+.about-us__image {
+  border-radius: 5px;
+}
+
+.about-us__info {
+  position: absolute;
+  background-image: url(./img/about-us_background.png);
+  background-repeat: no-repeat;
+  top: 98px;
+  right: 3px;
+  width: 785px;
+  min-height: 455px;
+  padding: 66px 81px;
+}
+
+.about-us__title-h2 {
+  margin-bottom: 41px;
+}
+
+.about-us__text {
+  margin-bottom: 40px;
+  width: 502px;
+  line-height: 1.7;
+}
+
+.about-us__text p {
+  margin-bottom: 20px;
+}
+
+.about-us__text p:last-child {
+  margin-bottom: 0;
+
+}
+
+.btn-detailed_purple {
+  border: 1px solid #fff;
+  background-color: transparent;
+  /* Тень при наведении на кнопку снизу больше, чем сверху */
+}
+
+.horisontal-line {
+  border-bottom: 1px solid #fff;
+  opacity: 0.1;
+}
+
+.footer {
+  position: relative;
+  height: 140px;
+}
+
+.footer__link-main {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 52px;
+}
+.footer__menu {
+  position: absolute;
+  top: 54px;
+  left: 287px;
+}
+
+.social-media {
+  position: absolute;
+  top: 49px;
+  right: 266px;
+
+}
+
+.social-media__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.social-media__item:last-child {
+  margin-right: 0;
+}
+
+.social-media__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.sm-icon-telegrem .social-media__link {
+  background-image: url(./img/sm-icons/telegram.png);
+}
+
+.sm-icon-telegrem .social-media__link:hover {
+  background-image: url(./img/sm-icons/telegram-hover.png);
+}
+
+.sm-icon-vk .social-media__link {
+  background-image: url(./img/sm-icons/vk.png);
+}
+
+.sm-icon-vk .social-media__link:hover {
+  background-image: url(./img/sm-icons/vk-hover.png);
+}
+
+.sm-icon-facebook .social-media__link {
+  background-image: url(./img/sm-icons/facebook.png);
+}
+
+.sm-icon-facebook .social-media__link:hover {
+  background-image: url(./img/sm-icons/facebook-hover.png);
+}
+
+.sm-icon-insta .social-media__link {
+  background-image: url(./img/sm-icons/insta.png);
+}
+
+.sm-icon-insta .social-media__link:hover {
+  background-image: url(./img/sm-icons/insta-hover.png);
+}
+
