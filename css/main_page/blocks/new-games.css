@@ -1,0 +1,27 @@
+.new-games {
+  margin-bottom: 123px;
+}
+
+.new-games__title-wrap {
+  /* position: relative; */
+  margin-bottom: 50px;
+}
+
+.new-games__icon {
+  /* position: absolute;
+  left: 329px;
+  top: 4px; Наверное, не самый хороший способ */ 
+  vertical-align: middle;
+}
+
+.new-games__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-games__item {
+  width: calc(100%/3 - 18px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

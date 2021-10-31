@@ -1,0 +1,27 @@
+.breadcrumbs {
+  padding-bottom: 20px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.breadcrumbs__item {
+  margin-right: 5px;
+}
+
+ .breadcrumbs__item:not(:last-of-type):after {
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrumbs__link {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item_active .breadcrumbs__link {
+  font-weight: bold;
+}

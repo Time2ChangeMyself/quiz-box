@@ -1,0 +1,7 @@
+.sm-icon-vk .social-media__link {
+  background-image: url(../../../img/main_page/sm-icons/vk.png);
+}
+
+.sm-icon-vk .social-media__link:hover {
+  background-image: url(../../../img/main_page/sm-icons/vk-hover.png);
+}

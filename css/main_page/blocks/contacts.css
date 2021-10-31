@@ -1,0 +1,19 @@
+.contacts {
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.contacts__schedule {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #98A4A8;
+}
+
+.contacts__schedule:hover {
+  color: #fff;
+}
+
+.contacts__phone-info {
+  font-size: 11px;
+  color: #9A9A9A;
+}

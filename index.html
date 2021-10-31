@@ -4,35 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./css/main_page/main.css">
   <title>Олег Денисенко. Quiz-box</title>
 </head>
 <body>
   <div class="wrapper main-page-wrapper">
     <!-- Начало секции hero -->
     <section class="hero">
-      <div class="container">
+      <div class="container hero__container">
         <!-- Начало головы документа -->
         <header class="header">
-          <a href="/" class="header__link-main link-main">
-            <img src="./img/quiz-box.png" alt="Логотип сайта" class="link-main__logo logo">
-          </a>
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#" class="menu__link">Главная</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Игры</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Отзывы</a>
-              </li>
-            </ul>
-          </nav>
-          <adress class="header__contacts contacts">
-            <a href="tel:+78007003030" class="contacts__phone-header phone">8 800 700 30 30</a>
-            <div class="contacts__workhours"> График работы <!-- Есть ли смысл в этом контейнере?-->
+          <div class="header__left">
+            <a href="./index.html" class="logo header__logo">
+              <img src="./img/main_page/quiz-box.png" alt="Логотип сайта" class="logo-img">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="./offers.html" class="menu__link">Игры</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <adress class="contacts header__right">
+            <a href="tel:+78007003030" class="phone">8 800 700 30 30</a>
+            <div class="contacts__schedule"> График работы <!-- Есть ли смысл в этом контейнере?-->
               <!-- <div class="contacts__week-schedule">
                 <img src="" alt="Рамка для времени работы" class="contacts__image">
                 <div class="contacts__workingdays">пн-вс: 09:00-20:00</div>
@@ -46,7 +48,7 @@
         <div class="hero__content">
           <section class="hero__text-section">
             <h1 class="hero__title title-h1">Интеллектуальный вечер для шумной компании</h1>
-            <p class="hero__text">Игры на любой вкус</p>
+            <h4 class="hero__text">Игры на любой вкус</h4>
             <a href="#" class="hero__btn btn-detailed">ПОДРОБНЕЕ</a>
           </section>
         </div>
@@ -60,21 +62,21 @@
         <div class="container">
           <div class="new-games__title-wrap">
             <h2 class="new-games__title title-h2">Новинки недели          
-              <img src="./img/new-icon.png" alt="Значок новый" class="new-games__icon new-icon">
+              <img src="./img/main_page/new-icon.png" alt="Значок новый" class="new-games__icon">
             </h2>
           </div>
           <ul class="new-games__list">
             <li class="new-games__item new-game">
-              <img src="./img/music-quiz_1.png" alt="Картинка для Музыкальной игры"  class="new-game__image">
+              <img src="./img/main_page/music-quiz_1.png" alt="Картинка для Музыкальной игры"  class="new-game__image">
               <div class="new-game__description">
                 <h3 class="new-game__title-h3 title-h3 title-h3_black">Музыкальная игра</h3>
                 <ul class="new-game__list">
                   <li class="new-game__item">
-                    <img src="./img/time-icon.png" alt="Значок времени" class="new-game__icon time-icon">
+                    <img src="./img/main_page/time-icon.png" alt="Значок времени" class="new-game__icon">
                     <p class="new-game__duration">90 минут</p>
                   </li>
                   <li class="new-game__item">
-                    <img src="./img/questions-icon.png" alt="Значок вопрос-ответ" class="new-game__icon questions-icon">
+                    <img src="./img/main_page/questions-icon.png" alt="Значок вопрос-ответ" class="new-game__icon">
                     <p class="new-game__questions">70 вопросов</p>
                   </li>
                 </ul>
@@ -85,16 +87,16 @@
               </div>
             </li>
             <li class="new-games__item new-game">
-              <img src="./img/music-quiz_2.png" alt="Картинка для Назад в 90-е"  class="new-game__image">
+              <img src="./img/main_page/music-quiz_2.png" alt="Картинка для Назад в 90-е"  class="new-game__image">
               <div class="new-game__description">
                 <h3 class="new-game__title-h3 title-h3 title-h3_black">Назад в 90-е</h3>
                 <ul class="new-game__list">
                   <li class="new-game__item">
-                    <img src="./img/time-icon.png" alt="Значок времени" class="new-game__icon time-icon">
+                    <img src="./img/main_page/time-icon.png" alt="Значок времени" class="new-game__icon time-icon">
                     <p class="new-game__duration">90 минут</p>
                   </li>
                   <li class="new-game__item">
-                    <img src="./img/questions-icon.png" alt="Значок вопрос-ответ" class="new-game__icon questions-icon">
+                    <img src="./img/main_page/questions-icon.png" alt="Значок вопрос-ответ" class="new-game__icon questions-icon">
                     <p class="new-game__questions">70 вопросов</p>
                   </li>
                 </ul>
@@ -105,16 +107,16 @@
               </div>
             </li>
             <li class="new-games__item new-game">
-              <img src="./img/music-quiz_3.png" alt="Картинка для IT-викторины"  class="new-game__image">
+              <img src="./img/main_page/music-quiz_3.png" alt="Картинка для IT-викторины"  class="new-game__image">
               <div class="new-game__description">
                 <h3 class="new-game__title-h3 title-h3 title-h3_black">IT-викторина</h3>
                 <ul class="new-game__list">
                   <li class="new-game__item">
-                    <img src="./img/time-icon.png" alt="Значок времени" class="new-game__icon time-icon">
+                    <img src="./img/main_page/time-icon.png" alt="Значок времени" class="new-game__icon time-icon">
                     <p class="new-game__duration">90 минут</p>
                   </li>
                   <li class="new-game__item">
-                    <img src="./img/questions-icon.png" alt="Значок вопрос-ответ" class="new-game__icon questions-icon">
+                    <img src="./img/main_page/questions-icon.png" alt="Значок вопрос-ответ" class="new-game__icon questions-icon">
                     <p class="new-game__questions">70 вопросов</p>
                   </li>
                 </ul>
@@ -130,62 +132,65 @@
       <!-- Описание прошедших игр -->
       <section class="past-games">
         <div class="container">
-        <h2 class="title-h2 past-games__title-h2">Прошедшие игры</h2>
-        <ul class="past-games__list">
-          <li class="past-games__item">
-            <img src="./img/past-games_ny-quiz.png" alt="Фото прошедшей игры" class="past-games__image">
-            <div class="past-games__description">
-              <p class="past-games__date">1 января</p>
-              <h3 class="past-games__title-h3 title-h3">Новогодний квиз</h3>
-              <p class="past-games__text">
-                Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
-              </p>
-            </div>
-          </li>
-          <li class="past-games__item">
-            <img src="./img/past-games_spring-game.png" alt="Фото прошедшей игры" class="past-games__image">
-            <div class="past-games__description">
-              <p class="past-games__date">8 марта</p>
-              <h3 class="past-games__title-h3 title-h3">Весенняя игра</h3>
-              <p class="past-games__text">
-                Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
-              </p>
-            </div>
-          </li>
-        </ul>
-        <div class="paginator">
-          <p class="paginator__display">Страница 1 из 7</p>
-          <ul class="paginator__list">
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">1</a>
+          <h2 class="title-h2 past-games__title-h2">Прошедшие игры</h2>
+          <ul class="past-games__list">
+            <li class="past-games__item past-game">
+              <img src="./img/main_page/past-games_ny-quiz.png" alt="Фото прошедшей игры" class="past-games__image">
+              <div class="past-games__description">
+                <p class="past-games__date">1 января</p>
+                <h3 class="past-games__title-h3 title-h3">Новогодний квиз</h3>
+                <div class="past-games__text">
+                  <p>
+                    Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
+                  </p>
+                </div>
+              </div>
             </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">2</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">3</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">4</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">5</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">6</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">7</a>
+            <li class="past-games__item past-game">
+              <img src="./img/main_page/past-games_spring-game.png" alt="Фото прошедшей игры" class="past-games__image">
+              <div class="past-games__description">
+                <p class="past-games__date">8 марта</p>
+                <h3 class="past-games__title-h3 title-h3">Весенняя игра</h3>
+                <div class="past-games__text">
+                  <p>
+                    Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
+                  </p>
+                </div>
+              </div>
             </li>
           </ul>
-        </div>
+          <div class="paginator">
+            <div class="paginator__display">Страница 1 из 7</div>
+            <ul class="paginator__list">
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">7</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- Начало секции "О нас" -->
       <section class="about-us">
         <div class="container">
           <div class="about-us_wrapper">
-            <img src="./img/about-us_photo.png" alt="Фото организаторов" class="about-us__image">
             <div class="about-us__info">
               <h2 class="about-us__title-h2 title-h2">О нас</h2>
               <div class="about-us__text">
@@ -198,7 +203,6 @@
               <a href="#" class="about-us__btn btn-detailed btn-detailed_purple">Подробнее</a>
             </div>
           </div>
-          <div class="horisontal-line"></div>
         </div>
       </section>
       <!-- Конец секции "О нас" -->
@@ -209,40 +213,44 @@
     <footer class="footer-container">
       <div class="container">
         <div class="footer">
-          <a href="#" class="footer__link-main link-main">
-            <img src="./img/quiz-box.png" alt="Логотип сайта" class="footer__logo logo">
-          </a>
-          <nav class="footer__menu menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#" class="menu__link">Главная</a>
+          <div class="footer__left">
+            <a href="./index.html" class="logo footer__logo">
+              <img src="./img/main_page/quiz-box.png" alt="Логотип сайта" class="logo-img">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Игры</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__right">
+            <ul class="social-media__list social-media ">
+              <li class="social-media__item sm-icon-telegram">
+                <a href="" class="social-media__link"></a>
               </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Игры</a>
+              <li class="social-media__item sm-icon-vk">
+                  <a href="" class="social-media__link"></a>
               </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Отзывы</a>
+              <li class="social-media__item sm-icon-facebook">
+                  <a href="" class="social-media__link"></a>
+              </li>
+              <li class="social-media__item sm-icon-insta">
+                <a href="" class="social-media__link"></a>
               </li>
             </ul>
-          </nav>
-          <ul class="social-media__list social-media ">
-            <li class="social-media__item sm-icon-telegrem">
-              <a href="" class="social-media__link"></a>
-            </li>
-            <li class="social-media__item sm-icon-vk">
-                <a href="" class="social-media__link"></a>
-            </li>
-            <li class="social-media__item sm-icon-facebook">
-                <a href="" class="social-media__link"></a>
-            </li>
-            <li class="social-media__item sm-icon-insta">
-              <a href="" class="social-media__link"></a>
-            </li>
-          </ul>
-          <adress class="footer__contacts contacts">
-            <div class="contacts__phone-info">Бесплатный звонок по России</div>
-            <a href="tel:+78007003030" class="contacts__phone-footer phone">8 800 700 30 30</a>
-          </adress>
+            <adress class="footer__contacts contacts">
+              <div class="contacts__phone-info">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone-footer phone">8 800 700 30 30</a>
+            </adress>
+          </div>
         </div>
       </div>
     </footer>

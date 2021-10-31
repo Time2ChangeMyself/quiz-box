@@ -1,0 +1,23 @@
+.game {
+  display: flex;
+  gap: 54px;
+}
+
+.game-img {
+  border-radius: 5px;
+}
+
+.game__content {
+  color: #000;
+}
+
+.game__title {
+  padding-top: 10px;
+  margin-bottom: 28px;
+}
+
+.game__desc {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}

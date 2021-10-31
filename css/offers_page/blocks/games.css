@@ -1,0 +1,13 @@
+.games {
+  width: 100%;
+  background-color: #fff;
+  padding: 92px 0;
+}
+
+.games__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 46px;
+  margin-bottom: 69px;
+}

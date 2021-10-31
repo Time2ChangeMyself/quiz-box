@@ -1,0 +1,14 @@
+.contacts {
+  text-align: right;
+  line-height: 1;
+}
+
+.contacts__schedule {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.contacts__phone-info {
+  font-size: 11px;
+  color: #9A9A9A;
+}

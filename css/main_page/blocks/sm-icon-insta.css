@@ -1,0 +1,7 @@
+.sm-icon-insta .social-media__link {
+  background-image: url(../../../img/main_page/sm-icons/insta.png);
+}
+
+.sm-icon-insta .social-media__link:hover {
+  background-image: url(../../../img/main_page/sm-icons/insta-hover.png);
+}

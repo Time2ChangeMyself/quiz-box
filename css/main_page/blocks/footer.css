@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer__left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__logo {
+  margin-right: 131px;
+}
+
+.footer__right {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer__contacts {
+  line-height: 1.42;
+  text-align: right;
+}

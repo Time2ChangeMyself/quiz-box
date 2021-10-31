@@ -1,0 +1,24 @@
+.hero {
+  margin-bottom: 187px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 585px;
+}
+
+.hero__text-section {
+  width: 70%;
+}
+
+.hero__title {
+  margin-bottom: 21px;
+  overflow-wrap: break-word;
+}
+
+.hero__text {
+  font-size: 21px;
+  margin-bottom: 74px;
+}

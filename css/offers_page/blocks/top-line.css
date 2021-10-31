@@ -1,0 +1,27 @@
+.top-line {
+  height: 412px;
+}
+
+.top-line::before {
+  content: "";
+  position: absolute;
+  width: 100%; 
+  min-height: 412px;
+  background-image: url(../../../img/offers_page/hero_background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(100%);
+  z-index: -10;
+}
+
+.top-line__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.top-line__title {
+  width: 40%;
+  padding-bottom: 7px;
+}

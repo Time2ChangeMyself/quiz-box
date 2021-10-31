@@ -1,0 +1,16 @@
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-media__list {
+  margin-right: 75px;
+}
+
+.social-media__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
