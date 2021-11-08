@@ -9,6 +9,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  transition: 0.75s;
 }
 
 .btn-detailed:hover {

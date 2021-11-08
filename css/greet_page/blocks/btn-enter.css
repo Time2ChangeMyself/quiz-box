@@ -1,0 +1,17 @@
+.btn-enter {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #8F00FF;
+  border-radius: 5px;
+  padding: 18px 58px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.75s;
+}
+
+.btn-enter:hover {
+  background-color: #741BBA;
+  box-shadow: 0px 0px 10px rgba(218, 1, 0, 0.3);  /*не понял этого момента*/
+}

@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  margin-right: 263px;
+}
+
+.logo__img {
+  width: auto;
+  height: 34px;
+}

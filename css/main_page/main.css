@@ -1,7 +1,9 @@
-@import url('./layout/fonts.css');
-@import url('./layout/normalize.css');
-@import url('./layout/base.css');
+@import url('../layout/fonts.css');
+@import url('../layout/normalize.css');
+@import url('../layout/base.css');
 
+
+@import url('./blocks/wrapper.css');
 @import url('./blocks/main-page-wrapper.css');
 @import url('./blocks/hero.css');
 @import url('./blocks/header.css');
@@ -15,7 +17,6 @@
 @import url('./blocks/new-games.css');
 @import url('./blocks/new-game.css');
 @import url('./blocks/title-h2.css');
-@import url('./blocks/new-game.css');
 @import url('./blocks/title-h3.css');
 @import url('./blocks/btn-view.css');
 @import url('./blocks/past-games.css');
@@ -28,3 +29,4 @@
 @import url('./blocks/sm-icon-vk.css');
 @import url('./blocks/sm-icon-facebook.css');
 @import url('./blocks/sm-icon-insta.css');
+

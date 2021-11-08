@@ -1,0 +1,8 @@
+@import url('../layout/fonts.css');
+@import url('../layout/normalize.css');
+@import url('../layout/base.css');
+
+@import url('../../css/greet_page/blocks/wrapper.css');
+@import url('../../css/greet_page/blocks/animation-block.css');
+@import url('../../css/greet_page/blocks/greet-page__wrapper.css');
+@import url('../../css/greet_page/blocks/btn-enter.css');

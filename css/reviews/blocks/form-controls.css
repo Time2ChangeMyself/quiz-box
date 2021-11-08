@@ -1,0 +1,10 @@
+.form-controls {
+  display: flex;
+  gap: 54px;
+  margin-bottom: 35px;
+}
+
+.form-controls__title {
+  color: #1A1B1E;
+  font-size: 18px;
+}

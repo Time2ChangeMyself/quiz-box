@@ -8,6 +8,7 @@
   padding: 18px 40px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 0.75s;
 }
 
 .btn-detailed:hover {

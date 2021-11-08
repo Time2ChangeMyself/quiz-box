@@ -1,8 +1,33 @@
+.sm-icon-facebook::after {  
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 36px;
+  height: 36px;
+  background: url('../../../img/sm-icons/css_sprites.png') -10px -10px;
+  transition:  0.75s;
+} 
 
-.sm-icon-facebook .social-media__link {
-  background-image: url(../../../img/main_page/sm-icons/facebook.png);
+.sm-icon-facebook::before {  
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 36px;
+  height: 36px;
+  background: url('../../../img/sm-icons/css_sprites.png') -66px -10px;
+  opacity: 0;
+  transition:  0.75s;
+} 
+
+.sm-icon-facebook:hover:after {
+  opacity: 0;
 }
 
-.sm-icon-facebook .social-media__link:hover {
-  background-image: url(../../../img/main_page/sm-icons/facebook-hover.png);
+.sm-icon-facebook:hover:before {
+  opacity: 1;
 }

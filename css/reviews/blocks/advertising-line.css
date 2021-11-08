@@ -1,0 +1,26 @@
+.advertising-line {
+  display: flex;
+  align-items: center;
+  min-height: 363px;
+}
+
+.advertising-line__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advertising-line__title {
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+.advertising-line__img_wrap {
+  width: 546px;
+  height: auto;
+}
+
+.advertising-line__img {
+  object-fit: cover;
+}

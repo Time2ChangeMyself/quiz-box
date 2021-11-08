@@ -8,6 +8,7 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
+  transition: 0.75s;
 }
 
 .btn-view:hover {

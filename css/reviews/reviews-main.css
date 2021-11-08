@@ -1,0 +1,36 @@
+@import url('../layout/fonts.css');
+@import url('../layout/normalize.css');
+@import url('../layout/base.css');
+
+@import url('../reviews/blocks/wrapper.css');
+@import url('../reviews/blocks/top-line.css');
+@import url('../reviews/blocks/header.css');
+@import url('../reviews/blocks/logo.css');
+@import url('../reviews/blocks/menu.css');
+@import url('../reviews/blocks/contacs.css');
+@import url('../reviews/blocks/phone.css');
+@import url('../reviews/blocks/title.css');
+@import url('../reviews/blocks/breadcrumbs.css');
+@import url('../reviews/blocks/reviews.css');
+@import url('../reviews/blocks/review.css');
+@import url('../reviews/blocks/avatar.css');
+@import url('../reviews/blocks/tag.css');
+@import url('../reviews/blocks/title-h3.css');
+@import url('../reviews/blocks/paginator.css');
+@import url('../reviews/blocks/advertising-line.css');
+@import url('../reviews/blocks/comment.css');
+@import url('../reviews/blocks/title-h2.css');
+@import url('../reviews/blocks/form.css');
+@import url('../reviews/blocks/form-controls.css');
+@import url('../reviews/blocks/controls.css');
+@import url('../reviews/blocks/btn-detailed.css');
+@import url('../reviews/blocks/footer-container.css');
+@import url('../reviews/blocks/footer.css');
+@import url('../reviews/blocks/social-media.css');
+@import url('../reviews/blocks/sm-icon-telegram.css');
+@import url('../reviews/blocks/sm-icon-vk.css');
+@import url('../reviews/blocks/sm-icon-facebook.css');
+@import url('../reviews/blocks/sm-icon-insta.css');
+
+
+

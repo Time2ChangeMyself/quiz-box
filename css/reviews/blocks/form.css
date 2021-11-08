@@ -1,0 +1,35 @@
+.form__row {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 28px;
+}
+
+
+
+.form__input {
+  flex: 1;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  padding: 20px 30px;
+  font-size: 18px;
+  color: #000;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input:focus {
+  border: 1px solid #8F00FF;
+}
+
+.form__input_textarea {
+  height: 235px;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 17px;
+}

@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 131px;
+}
+
+.footer__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer__contacts {
+  line-height: 1;
+  text-align: right;
+  align-self: flex-start;
+}
